@@ -2,7 +2,11 @@ import java.io.File;
 
 public class FileExistsException extends Exception {
 
-	
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	
 	public FileExistsException(String err_msg) {
 		super(err_msg);
